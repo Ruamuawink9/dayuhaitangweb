@@ -1,0 +1,175 @@
+#top{
+	width: 1000px;
+	height: 260px;
+	margin: auto;
+	background-color: #4caf50;
+	position: sticky;
+	top: 0;
+	
+}
+#top img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#mid{
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: orangered;
+	position: sticky;
+	top: 260px;
+}
+#mulv{
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: aqua;
+	text-align: center;
+	color: #DFF2FF;
+}
+a{
+	text-align: center;
+	color: #DFF2FF;
+    text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+#mulv-1:hover{
+	overflow: visible;
+	background-color: #005b44;
+	z-index: 999;
+	cursor: pointer;
+}
+#mulv-2:hover{
+	overflow: visible;
+	background-color: #005b44;
+	z-index: 999;
+	cursor: pointer;
+}
+#mulv-3:hover{
+	overflow: visible;
+	background-color: #005b44;
+	z-index: 999;
+	cursor: pointer;
+}
+#mulv-4:hover{
+	overflow: visible;
+	background-color: #005b44;
+	z-index: 999;
+	cursor: pointer;
+}
+#mulv-1{
+	width: 250px;
+	height: 50px;
+	background-color: #008b74;
+	float:left;
+	
+}
+#mulv-2{
+	width: 250px;
+	height: 50px;
+	background-color: #008b74;
+	float:left;
+}
+#mulv-3{
+	width: 250px;
+	height: 50px;
+	background-color: #008b74;
+	float:left;
+}
+#mulv-4{
+	width: 250px;
+	height: 50px;
+	background-color: #008b74;
+	float:left;
+}
+#below{
+	width: 1000px;
+	height: 360px;
+	margin: auto;
+	background-color: #4caf50;
+}
+#below img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#neirong11{
+	margin: auto;
+	width: 1000px;
+	height: 220px;
+	/* background-color: orangered; */
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#dianyin11{
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+	/* background-color: antiquewhite; */
+	text-align: center;
+	color: #008b74;
+	font-size: 26px;
+	font-family: 楷体;
+	margin-top: 16px;
+}
+#dianyin11 li{
+	list-style-type: none;
+}
+
+#dianyin22{
+	margin: auto;
+	width: 1000px;
+	height: 201px;
+	/* background-color: aquamarine; */
+}
+#wenzi11{
+	width: 680px;
+	height: 206px;
+	float: left;
+}
+#wenzi11 li{
+	list-style-type: none;
+	font-size: 20px;
+}
+#tupian22 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 60px;
+	box-shadow: 5px 5px 5px #88888888;
+}
+#tupian22{
+	float: right;
+	width: 300px;
+	height: 201px;
+	/* background-color: black; */
+	margin-top: 6px;
+	margin-right: 5px;
+}
+#tupian22:hover{
+	transform: scale(1.05);
+}
+#pjwenzi{
+	width: 1000px;
+	height: 570px;
+	margin: auto;
+	margin-top: 10px;
+}
+#pjwenzi li{
+	list-style-type: none;
+	font-size: 20px;
+}
+#last{
+	width: 1000px;
+	height: 60px;
+	background-color: #008b74;
+	text-align: center;
+    line-height: 60px;
+	margin: auto;
+	color: #DFF2FF;
+	font-size: 26px;
+	font-family: 楷体;
+	margin-top: 16px;
+}
