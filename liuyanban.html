@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大鱼海棠</title>
+		<link rel="stylesheet" href="./css/liuyanban.css" >
+	</head>
+	<body>
+		<div id="top">
+			<img src="./img/shouye.png">	
+		</div>
+		<div id="mid">
+			<div id="mulv">
+				<div id="mulv-1">
+					<a href="index.html">网站首页</a>
+				</div>
+				<div id="mulv-2">
+					<a href="yemian222.html">影片制作</a>
+				</div>
+				<div id="mulv-3">
+					<a href="yemian333.html">作品评价</a>
+				</div>
+				<div id="mulv-4">
+					<a href="liuyanban.html">留言交流</a>
+				</div>
+			</div>	
+		</div>
+		
+	<div id="liuyan">
+		<p id="jiaoliu">留言交流</p>
+		<div id="mgs">
+        <textarea id="text"></textarea><br>
+        <input type="button" id="btn" value="提交">
+        <ul class="list"></ul>
+    </div>
+	</div>	
+	
+        <script>
+            var btn = document.getElementById('btn');
+            var list = document.querySelector('.list');
+            var text = document.getElementById('text');
+            btn.onclick = function () {
+                if (text.value == '') {
+                    alert('你没有输入内容。')
+                } else {
+                    var li = document.createElement('li');
+                     var time = new Date();
+                    var mytime = time.getFullYear() + '-' + (time.getMonth() + 1) + '-' + time.getDate();
+                    li.innerHTML = text.value + '<span>' + mytime + '\t' + '<button>删除</button></span>';
+                    text.value = '';
+                    list.insertBefore(li, list.children[0]);
+                    var allB = document.querySelectorAll('button');
+                    for (var i = 0; i < allB.length; i++) {
+                        allB[i].onclick = function () {
+                            list.removeChild(this.parentNode.parentNode);
+                        }
+                    }
+                }
+            }
+        </script>
+	<div id=last>
+		<p>版权所有：电影-大鱼海棠</p>
+	</div>
+	</body>
+</html>
